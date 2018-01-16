@@ -1,0 +1,24 @@
+{
+  "name": "s3-image-tweeter",
+  "version": "1.0.0",
+  "description": "Lambda function to tweet images when they arrive in an AWS S3 bucket",
+  "main": "handler.js",
+  "dependencies": {
+    "aws-sdk": "2.181.0",
+    "twitter": "1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breenie/s3-image-tweeter.git"
+  },
+  "author": "chris@kurl.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breenie/s3-image-tweeter/issues"
+  },
+  "homepage": "https://github.com/breenie/s3-image-tweeter#readme"
+}
